@@ -1,0 +1,46 @@
+.language {
+    &__container {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 200px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 64px;
+        max-width: 360px;
+        margin-top: 120px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 24px;
+        max-width: 550px;
+        margin-bottom: 60px;
+        color: #8F95A5;
+    }
+
+    &__lamp{
+        position: absolute;
+        bottom: 320px;
+        left: 470px;
+    }
+
+    &__button {
+        background-color: #263238;
+        width: 438px;
+        height: 118px;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+    &__second {
+        margin-top: 30px;
+    }
+}

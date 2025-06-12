@@ -11,7 +11,7 @@
 .header__list {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
   font-weight: 500;
   font-size: 20px;
 }
@@ -30,6 +30,58 @@
 .header__burgermenu {
   display: none;
 }
+@media (max-width: 993px) {
+  .header {
+    margin-top: 51px;
+    background-color: black;
+  }
+}
+
+.language__container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 200px;
+}
+.language__title {
+  font-weight: 600;
+  font-size: 64px;
+  max-width: 360px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.language__text {
+  font-weight: 400;
+  font-size: 24px;
+  max-width: 550px;
+  margin-bottom: 60px;
+  color: #8F95A5;
+}
+.language__lamp {
+  position: absolute;
+  bottom: 320px;
+  left: 470px;
+}
+.language__button {
+  background-color: #263238;
+  width: 438px;
+  height: 118px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: 400;
+  font-size: 36px;
+}
+.language__second {
+  margin-top: 30px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
