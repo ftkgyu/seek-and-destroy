@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 71px;
+    &__icon {
+        margin-left: 130px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__right{
+        margin-right: 130px;
+    }
+
+    &__button {
+        width: 220px;
+        height: 70px;
+        background: none;
+        border: 2px solid #263238;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    &__burgermenu {
+        display: none;
+
+        &__toggle {}
+    }
+}
