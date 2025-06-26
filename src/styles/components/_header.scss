@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 71px;
+
     &__icon {
         margin-left: 130px;
     }
@@ -10,12 +11,12 @@
     &__list {
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 30px;
         font-weight: 500;
         font-size: 20px;
     }
 
-    &__right{
+    &__right {
         margin-right: 130px;
     }
 
@@ -31,7 +32,10 @@
 
     &__burgermenu {
         display: none;
+    }
 
-        &__toggle {}
+    @media(max-width: 993px) {
+            margin-top: 51px;
+            background-color: black;
     }
 }
