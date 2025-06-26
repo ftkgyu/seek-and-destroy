@@ -1,8 +1,45 @@
-.container-about {
+.container {
   margin: 0 auto;
   max-width: 1338px;
   width: 100%;
   padding: 0 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #C4C4C4;
+  padding-top: 31px;
+}
+
+.brand-black {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+
+.brand-gray {
+  font-weight: 400;
+  font-size: 36px;
+  color: #8F95A5;
+}
+
+.footer-links {
+  margin-bottom: 53px;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 24px;
+  color: #8F95A5;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1338px;
+  width: 100%;
+  padding: 0 1116px;
 }
 
 .section-3-about {
@@ -43,4 +80,149 @@
 
 .section-3-stat__img {
   display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1338px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.section-4-title {
+  text-align: center;
+  margin-bottom: 57px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 261px;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card-body {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #263238;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8F95A5;
+  margin: 0 0 40px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: auto;
+  background-color: #EEEEEE;
+  padding: 5px 12px;
+  border-radius: 5px;
+  max-width: 205px;
+  width: 100%;
+  gap: 11px;
+}
+
+.card-price__amount {
+  font-weight: 400;
+  font-size: 30px;
+  color: #263238;
+}
+
+.card-price__text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #546269;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1338px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.section-5-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 133px;
+}
+
+.contact-image {
+  margin-right: 111px;
+}
+
+.contact-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8F95A5;
+  margin-bottom: 52px;
+}
+
+.contact__email-form {
+  display: flex;
+  border-radius: 10px;
+}
+
+.contact-email {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8F95A5;
+  width: 450px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 12px;
+  padding-left: 33px;
+}
+
+.btn {
+  width: 264px;
+}
+
+.btn-primary {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #263238;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
