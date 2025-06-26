@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.skills {
+    margin: 0 auto;
+    margin-bottom: 230px;
+
+    &__maintitle {
+        font-weight: 600;
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 112px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        // position: relative;
+    }
+
+    &__second{
+        width: 885px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__random {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__speaking {
+        width: 435px;
+        height: 958px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        padding-left: 43px;
+    }
+
+    &__writing {
+        width: 434px;
+        height: 595px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 42px;
+    }
+
+    &__reading {
+        width: 434px;
+        height: 595px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 42px;
+        // position: absolute;
+        // bottom: 340px;
+        // right: 150px;
+    }
+
+    &__listening {
+        width: 885px;
+        height: 343px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F5F5;
+        gap: 60px;
+    }
+
+    &__image {
+        margin-top: 36px;
+    }
+
+    &__title {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #263238;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8F95A5;
+        max-width: 320px;
+        margin-bottom: 36px;
+    }
+
+    &__span {
+        color: white;
+    }
+
+    &__button {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        width: 218px;
+        height: 60px;
+        background-color: #263238;
+        border: none;
+        border-radius: 5px;
+    }
+}
