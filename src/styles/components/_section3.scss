@@ -1,0 +1,45 @@
+.container{
+    margin: 0 auto;
+    max-width: 1338px;
+    width: 100%;
+    padding: 0 1116px;
+}
+
+.section-3-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 188px;
+}
+.section-3-title{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+.section-3-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-3-stats{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section-3-stat__title{
+    font-weight: 600;
+    font-size: 48px;
+    margin-right: 163px;
+}
+
+.section-3-stat__p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section-3-stat__img{
+    display: flex;
+}
